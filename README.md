@@ -19,7 +19,7 @@ The user of this react application should be able to view the video response(s) 
 
 ## What would you do differently if you were allocated more time?
 
-- I would do every thing that I describe before but also...
+I would do every thing that I describe before but also...
 - add an array of comments in every video response
 - add an option to delet comments
 - Make a responsive css
