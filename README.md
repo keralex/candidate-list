@@ -11,7 +11,7 @@ The user of this react application should be able to view the video response(s) 
 ## Scripts
     -npm install
     -npm start: start the react app
-    -npm run start-server : start the json server server
+    -npm run start-server : start the json server 
 
 ## Are there any improvements you could make to your submission?
 - the first I would do is to create a component "video" because in the component "ApplicationDetails" there is a lot of code, and it could be simplified, but I didn't think about it till now.
