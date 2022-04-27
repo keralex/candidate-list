@@ -1,0 +1,21 @@
+.header {
+    padding: 2rem;
+    button {
+        border-radius: 8px;
+        font-family: Arial;
+        font-size: 14px;
+        background: #ffffff;
+        padding: 10px 30px;
+        text-decoration: none;
+        transition: all 0.5s;
+        border: none;
+        height: fit-content;
+        margin-top: 22px;
+        color: #aa00ff;
+        &:hover {
+            color: #e4afff;
+            background: #ffffff;
+            text-decoration: none;
+        }
+    }
+}

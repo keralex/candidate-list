@@ -1,0 +1,87 @@
+.application-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    .application-container {
+        width: 70%;
+        background: white;
+        box-shadow: $shadow;
+        border-radius: 8px;
+        padding: 1rem;
+        .candidate-info {
+            .name{
+                text-align: center;
+            }
+        }
+        .videos {
+            .video-container {
+                display: flex;
+                padding: 1rem 0;
+                border-bottom: 1px solid #e4e4e4;
+                &:last-child {
+                    border-bottom: none;
+                }
+                .video-question {
+                    padding: 5px;
+                    width: 55%;
+                    &-text {
+                        span {
+                            font-weight: bold;
+                        }
+                    }
+                    p {
+                        margin-top: 0;
+                    }
+                }
+                .video-Comment {
+                    width: 40%;
+                    padding: 5px;
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 4rem;
+                    form {
+                        display: flex;
+                        label{
+                            font-weight: bold;
+                        }
+                        input[type=text] {
+                            width: 90%;
+                            padding: 12px 20px;
+                            margin: 8px 0;
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            border-radius: 4px;
+                            box-sizing: border-box;
+                        }
+                        .btn-submit {
+                            border-radius: 8px;
+                            font-family: Arial;
+                            color: #ffffff;
+                            font-size: 14px;
+                            background: #aa00ff;
+                            padding: 20px 10px;
+                            text-decoration: none;
+                            transition: all 0.5s;
+                            border: none;
+                            height: fit-content;
+                            margin-top: 22px;
+                            &:hover{
+                                background: #b152ff;
+                                text-decoration: none;
+                            }
+                        }
+                        
+                    } //form
+                    .comment-container{
+                        p{
+                            overflow: auto;
+                            max-height: 106px;
+                        }
+                    }
+                }//video-comment
+            }//video-container
+        } //video
+    } //application-container
+} //application-page
