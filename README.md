@@ -24,5 +24,6 @@ I would do every thing that I describe before but also...
 - add an array of comments in every video response
 - add an option to delet comments
 - Make a responsive css
+- add a loading 
 
 
